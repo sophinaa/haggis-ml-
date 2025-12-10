@@ -1,0 +1,3 @@
+# Scottish Haggis ML Project
+
+This project analyses the Scottish Haggis dataset using a range of machine-learning techniques. The notebook includes full exploratory data analysis, clustering (K-Means and DBSCAN), supervised classification (Decision Tree, KNN, Logistic Regression), and a Linear Regression model to predict body mass. All preprocessing steps use scikit-learn pipelines, with imputation, encoding, and scaling applied appropriately. The analysis consistently shows strong morphological separation between species, and the models achieve high accuracy. The work also documents minor data quirks, such as the unexpected `"green"` value in the sex column. Everything needed to reproduce the results is contained in the notebook.
